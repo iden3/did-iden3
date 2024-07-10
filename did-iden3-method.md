@@ -80,7 +80,8 @@ Example of DID document of ethereum controlled identity:
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://schema.iden3.io/core/jsonld/auth.jsonld"
+    "https://schema.iden3.io/core/jsonld/auth.jsonld",
+    "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
   ],
   "id": "did:iden3:privado:main:2SZDsdYordSGmCS9tvprU2hw5oTanMQ6F3knCwSmkx",
   "verificationMethod": [
