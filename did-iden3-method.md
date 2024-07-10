@@ -74,7 +74,7 @@ Example of DID document of regular identity:
 }
 ```
 
-Example of DID document of onchain based identity:
+Example of DID document of ethereum controlled identity:
 
 ```json
 {
