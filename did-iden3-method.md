@@ -227,7 +227,7 @@ After fetching the gist and the user’s state it is possible to build a represe
     6.1.5 Fill `stateContractAddress` in the following format  `<chain_id>:<resolver_contract>`.<br/>
     6.1.6 Set `true` in `published` if the user’s state was been published to the smart contract.<br/>
     6.1.7 Create an array `authentication` and put the struct from step 6.1 in this array.<br/>
-    6.1.8 Put the array `authentication` to `didDocument`. Also, add `@context: ["https://www.w3.org/ns/did/v1", "https://schema.iden3.io/core/jsonld/auth.jsonld"]` to this `didDocument`.<br/>, add object to this array
+    6.1.8 Put the array `authentication` to `didDocument`. Also, add `@context: ["https://www.w3.org/ns/did/v1", "https://schema.iden3.io/core/jsonld/auth.jsonld"]` to this `didDocument`.<br/>, add object to this array <br/>
 6.2  Add optional `EcdsaSecp256k1RecoveryMethod2020` for ethereum controlled identities.<br/>
     6.2.1 Check if identity is ethereum based. Read more [here](https://docs.iden3.io/getting-started/identity/identity-types/#ethereum-controlled-identity)   <br/>
     6.2.2 If it is an ethereum controlled identity add `EcdsaSecp256k1RecoveryMethod2020` following the corresponding specification <br/>
