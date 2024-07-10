@@ -177,7 +177,7 @@ Each of these formats has a different `read` algorithm. But they all have a cert
     5.1.3 Call `getStateInfoById` with the user ID to get the latest information about the user’s state. If it does not exist return an empty object<br/>
     ```json
     "info": {
-        "id": "did:iden3:polygon:amoy:xC8VZLUUfo5p9DWUawReh7QSstmYN6zR7qsQhQCsw",
+        "id": "did:iden3:polygon:amoy:xC8VZLUUfo5p9DWUawReh7QSstmYN6zR7qsQhQCsw#state-info",
         "state": "7a1a45d22b686cf1bd2f9fbecbed38b725a555e6d8ad68d3780feda9124b1a13",
         "replacedByState": "0000000000000000000000000000000000000000000000000000000000000000",
         "createdAtTimestamp": "1716909689",
